@@ -5,6 +5,7 @@
 
 body {
   font-family: sans-serif;
+  background:#f5f5f5;
 }
 
 .header {
@@ -113,4 +114,65 @@ body {
   height: 16px;
   background-color: #003a8c;
   margin-right: 12px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.menu-sidebar {
+  max-width: 192px;
+  margin-top: 18px;
+}
+
+.menu-sidebar .user {
+  padding-left: 10px;
+}
+.menu-sidebar .user-avatar {
+  width: 24px;
+  height: 24px;
+}
+
+.menu-sidebar .user-name {
+  color: #262626;
+  font-size: 14px;
+  line-height: 22px; 
+  font-weight: normal;
+}
+
+.nav-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 12px;
+  margin-bottom: 24px;
+}
+.nav-link {
+  padding: 4px 8px;
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  text-decoration: none;
+  color:#595959;
+  line-height:22px ;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.nav-link.active {
+  background: #fff;
+  color: #262626;
+}
+
+.nav-text {
+  margin-left: 8px;
+}
+.nav-title {
+  padding-left: 10px;
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 600;
+  margin-bottom: 4px;
+  margin: 0;
 }
